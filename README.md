@@ -7,8 +7,8 @@ This project demonstrates a functional **Cloud SIEM/SOAR** setup using **Microso
 ## 🎨 Workflow Visualization
 Below is the architectural flow of the automated response system I built. It shows how Sentinel triggers the Logic App to send real-time email notifications.
 
-![Automation Visual Summary](මෙතනට_මම_හදපු_Visual_Summary_පින්තූරයේ_ලින්ක්_එක_දාන්න)
-![Global Attack Map](Azure-Sentinel/d2.png)
+![Automation Visual Summary](Automate/2.png)
+
 
 ---
 
@@ -35,14 +35,14 @@ I implemented an end-to-end security monitoring solution in Azure to:
 ### 1. Incident Detection
 After simulating the attack from Kali Linux, Microsoft Sentinel successfully identified and created a medium-severity incident.
 
-**[Live Evidence: Sentinel Incident Dashboard]**
-![Sentinel Incident](මෙතනට_උඹ_ගත්ත_incident.png_පින්තූරයේ_ලින්ක්_එක_දාන්න)
+**Live Evidence: Sentinel Incident Dashboard**
+![Sentinel Incident](Automate/incident.png)
 
 ### 2. Automated Notification
 Upon incident creation, the automation rule triggered the email playbook, sending a real-time alert to my inbox.
 
-**[Live Evidence: Email Alert Received]**
-![Email Alert](මෙතනට_උඹට_ආපු_image_b261bf.png_පින්තූරයේ_ලින්ක්_එක_දාන්න)
+**Live Evidence: Email Alert Received**
+![Email Alert](Automate/output.png)
 
 ---
 
@@ -53,4 +53,4 @@ Upon incident creation, the automation rule triggered the email playbook, sendin
 - Reducing Mean Time to Respond (MTTR) through automation.
 
 ---
-**Project completed by Amal** | [LinkedIn](උඹේ_ලින්ක්ඩ්ඉන්_ලින්ක්_එක_මෙතනට_දාන්න)
+**Project completed by Amal** | [LinkedIn](https://www.linkedin.com/in/amal-udayanga-basnayake/)
